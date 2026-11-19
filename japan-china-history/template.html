@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-  <meta name="description" content="縄文時代から平成までの日中関係史137項目を学ぶ大学受験日本史のインタラクティブ年表。時代・テーマ・重要度の絞り込み、暗記モード、CSV出力に対応。">
-  <title>日中関係史年表｜縄文から平成まで｜大学受験日本史</title>
+  <meta name="description" content="縄文から平成までの日中・日朝日韓・日露日ソ・日英・日米関係史361項目を比べる大学受験日本史のインタラクティブ年表。時代・テーマ・重要度の絞り込み、暗記モード、CSV出力に対応。">
+  <title>日本の対外関係史年表｜日中・朝鮮半島・日露・日英・日米｜大学受験日本史</title>
   <style>
     :root { color-scheme: light; --ink:#18263b; --sub:#586476; --muted:#8d96a3; --paper:#f7f7f3; --surface:#fff; --line:#e2e6e8; --navy:#122239; --navy2:#203653; --aqua:#187b7f; --aqua2:#e8f3f1; --gold:#e5c184; --red:#a94636; --shadow: 0 15px 35px rgba(29,42,63,.08); }
     * { box-sizing:border-box; }
@@ -142,14 +142,15 @@
     .fineprint { color:#96a2af; font-size:11px; margin-top:25px; }
     .back-to-top { position:fixed; z-index:10; right:21px; bottom:21px; width:43px; height:43px; display:grid; place-items:center; background:#19364a; border:0; color:#fff; border-radius:50%; box-shadow:var(--shadow); font-size:18px; opacity:0; pointer-events:none; transition:.2s; }
     .back-to-top.visible { opacity:1; pointer-events:auto; }
+.relations-band { max-width:1390px; margin:22px auto 0; padding:20px 26px; } .relations-head { display:flex; justify-content:space-between; align-items:center; gap:15px; flex-wrap:wrap; margin-bottom:14px; } .relations-head strong { display:block;font-size:16px; } .relations-head span { display:block;color:#788594;font-size:12px; } .all-relations { padding:9px 16px; border-radius:8px; background:white; border:1px solid #cddddd; color:#186f75; font-size:12px;font-weight:800; } .all-relations.active { background:#186f75;color:white; } .relations-chips { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:9px; } .relation-chip { background:white; border:1px solid #e1e6e6; border-radius:10px; min-width:0; padding:14px 12px; display:flex; align-items:center; justify-content:center; gap:9px; color:#637386; } .relation-chip.active { background:#e4f3f1;border-color:#187b7f;color:#155e66;box-shadow:0 0 0 1px #187b7f inset; } .relation-chip small { color:#8594a1;font-size:10px; } .region-dot { width:10px; height:10px; display:inline-block;border-radius:50%; background:#64748b; flex:none; } .region-cn { background:#bf6950; } .region-kr {background:#7b60b0;} .region-ru {background:#638ba8;} .region-uk {background:#af8b4e;} .region-us {background:#3c9781;} .region-label {border-radius:4px;padding:2px 7px;font-weight:800;font-size:10px;white-space:nowrap;background:#eef1f2;color:#3c5069;} .region-label-cn {background:#fbeae5;color:#9c523e;} .region-label-kr {background:#f0eafb;color:#73559a;} .region-label-ru {background:#e5f0f6;color:#456d8c;} .region-label-uk {background:#faf1df;color:#947343;} .region-label-us {background:#e2f3ed;color:#2f7968;} 
     .keynav { display:flex; gap:7px; flex-wrap:wrap; margin-top:13px; }
     .keynav button { color:#ead5b8; background:#ffffff10; border:1px solid #ffffff33; border-radius:5px; padding:4px 9px; font-size:11px; font-variant-numeric:tabular-nums; }
     .keynav button:hover { background:#ffffff28; }
     @media (max-width:1050px) { .layout { grid-template-columns:176px minmax(0,1fr); gap:20px; } .era-range { display:none; } .timeline { margin-left:92px; } .event-year { width:95px; } .phase { padding:12px; } }
-    @media (max-width:700px) { .hero { min-height:auto; padding:19px 21px; } .hero-main { padding:48px 0 32px; } .hero-top .mini-tag { display:none; } .hero h1 { font-size:42px; } .hero h1 span { font-size:23px; } .hero-stats { padding:15px 0 8px; gap:15px; } .hero-stats strong { font-size:18px; } .flow-band { padding:20px 15px; overflow-x:auto; } .phase-grid { min-width:570px; } .layout { display:block; padding:0 15px 65px; } .sidebar { position:static; margin-bottom:23px; } .era-menu { max-height:none; display:flex; overflow-x:auto; padding:9px; gap:5px; } .era-btn { white-space:nowrap; width:auto; min-width:max-content; gap:7px; padding:8px 12px; } .side-top { padding:13px 16px 9px; } .side-help,.side-note { display:none; } .filter { padding:13px; } .filter-row { gap:6px; } .filter-label { flex-basis:35px; } .chips { gap:5px; } .chip { padding:5px 9px; } .era-header { gap:8px; } .era-name { font-size:21px; } .timeline { margin-left:74px; padding-left:16px; } .event-year { right:calc(100% + 27px); width:78px; font-size:10px; } .event::before { left:-23px; width:10px; height:10px; } .event-top { padding:13px 12px; } .event-title { font-size:13px; } .event-summary { font-size:12px; } .detail { padding:13px 12px; } .sources { padding:0 15px 60px; } .sources-grid { grid-template-columns:1fr; } .section-head h2 { font-size:26px; } .tool-right { width:100%; justify-content:space-between; } }
+    @media (max-width:700px) { .relations-band { padding:12px 15px; } .relations-chips { grid-template-columns:repeat(2,minmax(0,1fr)); gap:7px; } .relation-chip {padding:11px 8px;gap:6px;} .relation-chip strong{font-size:13px;} .hero { min-height:auto; padding:19px 21px; } .hero-main { padding:48px 0 32px; } .hero-top .mini-tag { display:none; } .hero h1 { font-size:42px; } .hero h1 span { font-size:23px; } .hero-stats { padding:15px 0 8px; gap:15px; } .hero-stats strong { font-size:18px; } .flow-band { padding:20px 15px; overflow-x:auto; } .phase-grid { min-width:570px; } .layout { display:block; padding:0 15px 65px; } .sidebar { position:static; margin-bottom:23px; } .era-menu { max-height:none; display:flex; overflow-x:auto; padding:9px; gap:5px; } .era-btn { white-space:nowrap; width:auto; min-width:max-content; gap:7px; padding:8px 12px; } .side-top { padding:13px 16px 9px; } .side-help,.side-note { display:none; } .filter { padding:13px; } .filter-row { gap:6px; } .filter-label { flex-basis:35px; } .chips { gap:5px; } .chip { padding:5px 9px; } .era-header { gap:8px; } .era-name { font-size:21px; } .timeline { margin-left:74px; padding-left:16px; } .event-year { right:calc(100% + 27px); width:78px; font-size:10px; } .event::before { left:-23px; width:10px; height:10px; } .event-top { padding:13px 12px; } .event-title { font-size:13px; } .event-summary { font-size:12px; } .detail { padding:13px 12px; } .sources { padding:0 15px 60px; } .sources-grid { grid-template-columns:1fr; } .section-head h2 { font-size:26px; } .tool-right { width:100%; justify-content:space-between; } }
     @media (max-width:390px) { .hero h1 { font-size:36px; } .hero h1 span { font-size:20px; } .timeline { margin-left:62px; } .event-year { width:66px; font-size:9px; } }
     @media (prefers-reduced-motion:reduce) { *,*::before,*::after { scroll-behavior:auto !important; transition:none !important; } }
-    @media print { @page { margin:12mm; } body { background:white; color:#111; } .hero { background:none; color:black; min-height:0; padding:0 0 14px; } .hero h1 { font-size:28px; margin:8px 0; } .hero h1 span { color:#555; font-size:15px; } .hero-sub,.hero-actions,.hero-stats,.hero-top,.keynav,.phase-grid,.flow-title,.sidebar,.filter,.results-head,.back-to-top,.sources-grid { display:none !important; } .flow-band { padding:0; } .layout { display:block; padding:0; } .section-head { margin:0 0 15px; } .section-head h2 { font-size:17px; } .era-section { margin-bottom:16px; break-inside:avoid-page; } .era-header { margin:0 0 4px; } .era-name { font-size:16px; } .era-label { background:#ddd; color:black; } .timeline { margin-left:90px; border-color:#bbb; } .event { break-inside:avoid-page; margin-bottom:4px; } .event::before { display:none; } .event-year { top:8px; } .event-card { border:0; border-bottom:1px solid #ddd; border-radius:0; } .event-top { padding:5px 9px; } .favorite,.details-toggle,.reveal { display:none; } .event-summary { font-size:10px; margin:2px 0 0; } .event-meta { margin-bottom:0; } .event-title { font-size:11px; } .event.mem .event-title { color:#111; } .event.mem .event-summary { display:block; } .detail { display:none !important; } .sources { padding:0; } .sources p { font-size:10px; } }
+    @media print { @page { margin:12mm; } body { background:white; color:#111; } .hero { background:none; color:black; min-height:0; padding:0 0 14px; } .hero h1 { font-size:28px; margin:8px 0; } .hero h1 span { color:#555; font-size:15px; } .hero-sub,.hero-actions,.hero-stats,.hero-top,.keynav,.relations-band,.phase-grid,.flow-title,.sidebar,.filter,.results-head,.back-to-top,.sources-grid { display:none !important; } .flow-band { padding:0; } .layout { display:block; padding:0; } .section-head { margin:0 0 15px; } .section-head h2 { font-size:17px; } .era-section { margin-bottom:16px; break-inside:avoid-page; } .era-header { margin:0 0 4px; } .era-name { font-size:16px; } .era-label { background:#ddd; color:black; } .timeline { margin-left:90px; border-color:#bbb; } .event { break-inside:avoid-page; margin-bottom:4px; } .event::before { display:none; } .event-year { top:8px; } .event-card { border:0; border-bottom:1px solid #ddd; border-radius:0; } .event-top { padding:5px 9px; } .favorite,.details-toggle,.reveal { display:none; } .event-summary { font-size:10px; margin:2px 0 0; } .event-meta { margin-bottom:0; } .event-title { font-size:11px; } .event.mem .event-title { color:#111; } .event.mem .event-summary { display:block; } .detail { display:none !important; } .sources { padding:0; } .sources p { font-size:10px; } }
   </style>
 </head>
 <body>
@@ -160,45 +161,45 @@
       <div class="mini-tag">UNIVERSITY ENTRANCE EXAM · HISTORY</div>
     </div>
     <div class="hero-main">
-      <div class="eyebrow">東アジアをつなぐ、二千年を超える歴史</div>
-      <h1>日中関係史<span>縄文から平成まで。</span></h1>
-      <p class="hero-sub">稲作の伝来、倭の朝貢、遣隋使と遣唐使、勘合貿易、戦争、国交正常化。<br>大学受験の日本史に必要な流れを、時代をまたいで一本につなぐ年表。</p>
+      <div class="eyebrow">五つの関係史で日本史を立体的にとらえる</div>
+      <h1>日本の対外関係史<span>縄文から平成まで。</span></h1>
+      <p class="hero-sub">日中・朝鮮半島・日露・日英・日米の外交、交易、文化、戦争。<br>国・地域を切り替え、同じ時代に何が起こったかを比較しながら学べる大学受験用年表。</p>
       <div class="hero-actions"><button class="btn btn-primary" id="startBtn">年表を見てみる <span aria-hidden="true">↓</span></button><button class="btn btn-ghost" id="csvBtn">CSVをダウンロード <span aria-hidden="true">↗</span></button></div>
-      <div class="keynav" aria-label="主要年号へ移動"><span style="font-size:11px;color:#d7d8d8;align-self:center;margin-right:3px">主要年号</span><button data-jump="57">57</button><button data-jump="239">239</button><button data-jump="607">607</button><button data-jump="663">663</button><button data-jump="894">894</button><button data-jump="1404">1404</button><button data-jump="1895">1895</button><button data-jump="1937">1937</button><button data-jump="1972">1972</button><button data-jump="1978">1978</button></div>
+      
     </div>
-    <div class="hero-stats"><div><strong id="totalCount">137</strong>出来事を収録</div><div><strong>14</strong>時代区分</div><div><strong>6</strong>テーマ別分類</div><div>授業・受験対策に使える学習用年表</div></div>
+    <div class="hero-stats"><div><strong id="totalCount">361</strong>出来事を収録</div><div><strong>5</strong>関係史</div><div><strong>14</strong>時代区分</div><div>国・地域をまたいで比較できる学習用年表</div></div>
   </header>
-  <div class="flow-band" aria-label="日中関係の大きな変化">
+  <div class="relations-band" aria-label="関係する国や地域を選ぶ"><div class="relations-head"><div><strong>比較したい関係史を選択</strong><span>複数選択で年表を年代順に横断比較できます</span></div><button type="button" id="allRelations" class="all-relations">5地域すべてを比較</button></div><div id="relationChips" class="relations-chips" role="group" aria-label="国・地域フィルター"></div></div><div class="flow-band" aria-label="対外関係の大きな流れ">
     <p class="flow-title">THE BIG PICTURE — まず流れをつかむ</p>
     <div class="phase-grid">
-      <div class="phase"><div class="phase-no">01 / 古代</div><strong>文化と朝貢</strong><span>稲作・金印・卑弥呼<br>隋・唐の制度と仏教</span></div>
-      <div class="phase"><div class="phase-no">02 / 中世</div><strong>民間交易と禅</strong><span>宋との貿易・元寇<br>明との勘合貿易</span></div>
-      <div class="phase"><div class="phase-no">03 / 近世</div><strong>港からの交流</strong><span>明清交替・長崎貿易<br>中国文化の受容</span></div>
-      <div class="phase"><div class="phase-no">04 / 近代</div><strong>対立と戦争</strong><span>日清戦争・満州事変<br>日中戦争と終戦</span></div>
-      <div class="phase"><div class="phase-no">05 / 戦後</div><strong>正常化と新たな課題</strong><span>1972年・1978年<br>交流の拡大と摩擦</span></div>
+      <div class="phase"><div class="phase-no">01 / 古代</div><strong>東アジアとの交流</strong><span>稲作・渡来人・仏教<br>遣隋使・遣唐使</span></div>
+      <div class="phase"><div class="phase-no">02 / 中世</div><strong>交易・軍事・外交</strong><span>宋との貿易と元寇<br>明・朝鮮との通交</span></div>
+      <div class="phase"><div class="phase-no">03 / 近世</div><strong>諸外国との接触</strong><span>朝鮮通信使・長崎貿易<br>英米露との接触</span></div>
+      <div class="phase"><div class="phase-no">04 / 近代</div><strong>開国・同盟・戦争</strong><span>不平等条約と条約改正<br>日清・日露戦争と日英同盟</span></div>
+      <div class="phase"><div class="phase-no">05 / 戦後</div><strong>国交・安全保障</strong><span>日米安保・日韓基本条約<br>日中国交正常化</span></div>
     </div>
   </div>
   <div class="layout" id="explore">
     <aside class="sidebar" aria-label="時代ナビゲーション">
       <div class="side-top"><div class="side-heading"><span>時代で探す</span><span aria-hidden="true">⌕</span></div><div class="side-help">時代を選ぶと年表を絞り込みます</div></div>
       <nav class="era-menu" id="eraMenu" aria-label="時代フィルター"></nav>
-      <div class="side-note"><strong>学習のヒント</strong>中国は一つの王朝が続いたわけではありません。史料の成立年代と、実際に記された時代も区別しましょう。</div>
+      <div class="side-note"><strong>学習のヒント</strong>同じ事件が複数の関係史に現れることがあります。複数地域を選び、背景と影響を比較してみましょう。</div>
     </aside>
     <main class="content">
       <div class="section-head"><div><span class="section-kicker">EXPLORE THE TIMELINE</span><h2>年表をたどる。</h2></div><div class="section-caption">年号・事件・人物・関連語から検索できます</div></div>
       <div class="filter" aria-label="年表の絞り込み">
-        <div class="search-line"><label class="search-wrap" aria-label="キーワード検索"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="7"></circle><path d="m16 16 5 5"></path></svg><input type="search" id="search" placeholder="例：遣唐使、宋、日清戦争、1972、勘合..." autocomplete="off" aria-label="キーワード検索"></label><button type="button" id="reset">リセット</button></div>
+        <div class="search-line"><label class="search-wrap" aria-label="キーワード検索"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="7"></circle><path d="m16 16 5 5"></path></svg><input type="search" id="search" placeholder="例：白村江、日露戦争、日英同盟、ペリー、1972..." autocomplete="off" aria-label="キーワード検索"></label><button type="button" id="reset">リセット</button></div>
         <div class="filter-row"><span class="filter-label">テーマ</span><div class="chips" id="themeChips" role="group" aria-label="テーマ選択"></div></div>
         <div class="tools-row"><div class="tool-left"><button class="toolbtn" id="importantBtn" aria-pressed="false"><span aria-hidden="true">★</span> 最重要だけ</button><button class="toolbtn" id="savedBtn" aria-pressed="false"><span aria-hidden="true">☆</span> 保存した項目</button><button class="toolbtn" id="recallBtn" aria-pressed="false">◈ 暗記モード</button></div><div class="tool-right"><select class="sort" id="sortSelect" aria-label="並び順"><option value="asc">古い順に表示</option><option value="desc">新しい順に表示</option></select><button class="toolbtn" id="expandBtn">すべて開く</button><button class="toolbtn" id="printBtn">⎙ 印刷</button></div></div>
       </div>
-      <div class="results-head" aria-live="polite"><strong id="resultLabel">137件の出来事</strong><span id="filterStatus">全時代を表示しています</span></div>
-      <div id="timelineRoot" aria-label="日中関係史年表"></div>
+      <div class="results-head" aria-live="polite"><strong id="resultLabel">361件の出来事</strong><span id="filterStatus">全時代を表示しています</span></div>
+      <div id="timelineRoot" aria-label="日本の対外関係史年表"></div>
     </main>
   </div>
   <footer class="sources">
     <div class="sources-card">
       <span class="section-kicker">REFERENCES & NOTES</span><h2>学習上の注意と参考資料</h2>
-      <p>この年表は大学受験の日本史学習用に主要事項を編集したものです。すべての出来事が国家間の正式な外交を意味するわけではなく、中国王朝・日本列島・朝鮮半島・琉球・台湾をめぐる間接的な交流や周辺情勢も含みます。縄文〜弥生期の年代には研究上の幅があり、個々の出来事の重要度は編集上の目安です。学説や解釈が分かれる問題では、授業・教科書・史料も併せて確認してください。</p>
+      <p>この年表は大学受験の日本史学習用の編集資料です。古代の交流を近代の二国間外交と同一視しないでください。朝鮮半島は1945年の解放・1948年の南北政府成立以降、日韓と日本・北朝鮮を区別しています。ロシア帝国・ソ連・ロシア連邦の制度上の違いも区別しています。複数地域に関わる出来事は重複掲載する場合があります。史実の年代・解釈・重要度は教科書・原史料でも照合してください。</p>
       <div class="sources-grid">
         <a class="source-link" href="https://www.rekihaku.ac.jp/research/list/2022_rekihaku_m_matsuda.html" target="_blank" rel="noopener noreferrer"><strong>国立歴史民俗博物館</strong><small>先史期の交流・渡来と稲作</small></a>
         <a class="source-link" href="https://archive.rekihaku.ac.jp/exhibitions/project/old/140715/guide/yayoi/Simple/index02.html" target="_blank" rel="noopener noreferrer"><strong>国立歴史民俗博物館（弥生文化）</strong><small>大陸由来の文物と交流</small></a>
@@ -206,36 +207,43 @@
         <a class="source-link" href="https://www.jacar.go.jp/learning/history.html" target="_blank" rel="noopener noreferrer"><strong>アジア歴史資料センター</strong><small>近代日本と東アジアの歴史年表</small></a>
         <a class="source-link" href="https://worldjpn.net/documents/indices/JPCH/" target="_blank" rel="noopener noreferrer"><strong>「世界と日本」日中関係資料集</strong><small>明治期以降の外交文書</small></a>
         <a class="source-link" href="https://www.cn.emb-japan.go.jp/itpr_ja/nenpyo.html" target="_blank" rel="noopener noreferrer"><strong>在中国日本国大使館</strong><small>1972年以降の日中関係年表</small></a>
+        <a class="source-link" href="https://www.mofa.go.jp/mofaj/area/korea/" target="_blank" rel="noopener noreferrer"><strong>外務省・日韓関係</strong><small>戦後の日韓関係・条約</small></a><a class="source-link" href="https://www.mofa.go.jp/mofaj/area/n_korea/" target="_blank" rel="noopener noreferrer"><strong>外務省・北朝鮮</strong><small>日朝平壌宣言・国交正常化交渉</small></a><a class="source-link" href="https://www.mofa.go.jp/mofaj/area/russia/" target="_blank" rel="noopener noreferrer"><strong>外務省・日露関係</strong><small>条約・平和条約交渉</small></a><a class="source-link" href="https://www.mofa.go.jp/mofaj/area/uk/" target="_blank" rel="noopener noreferrer"><strong>外務省・日英関係</strong><small>通商・外交関係</small></a><a class="source-link" href="https://www.mofa.go.jp/mofaj/area/usa/" target="_blank" rel="noopener noreferrer"><strong>外務省・日米関係</strong><small>条約・日米安全保障</small></a>
       </div>
-      <p class="fineprint">日本史探究 / 日中関係史タイムライン · 最終対象：平成（2019年4月まで） · 教育・自習向け · このページはインターネット接続がなくても検索・絞り込み・CSV書き出しが可能です。</p>
+      <p class="fineprint">日本史探究 / 対外関係史タイムライン · 最終対象：平成（2019年4月まで） · 教育・自習向け · オフライン利用可能</p>
     </div>
   </footer>
   <button class="back-to-top" id="backToTop" aria-label="ページの先頭に戻る">↑</button>
   <script>
   "use strict";
   const EVENTS = __EVENTS__;
+  const REGIONS = [{key:'cn',name:'日中',detail:'中国王朝・中華民国・中華人民共和国'},{key:'kr',name:'日朝・日韓',detail:'朝鮮半島（南北分断後は区別）'},{key:'ru',name:'日露・日ソ',detail:'ロシア帝国・ソ連・ロシア連邦'},{key:'uk',name:'日英',detail:'イギリス'},{key:'us',name:'日米',detail:'アメリカ合衆国'}];
   const PERIODS = ["縄文","弥生","古墳","飛鳥","奈良","平安","鎌倉","室町","安土桃山","江戸","明治","大正","昭和","平成"];
   const THEMES = ["すべて","外交","貿易","文化","軍事","史料","国際情勢"];
-  const STATE = { era:"すべて", theme:"すべて", q:"", important:false, savedOnly:false, recall:false, desc:false, allExpanded:false };
+  const STATE = { regions:new Set(["cn"]), era:"すべて", theme:"すべて", q:"", important:false, savedOnly:false, recall:false, desc:false, allExpanded:false };
   const $ = selector => document.querySelector(selector);
   const root = $("#timelineRoot");
   const esc = v => String(v).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"})[c]);
-  const storageKey = "jp-cn-history-saved-v1";
+  const storageKey = "jp-global-history-saved-v2";
   let saved = new Set();
   let expanded = new Set();
   let revealed = new Set();
-  try { saved = new Set(JSON.parse(localStorage.getItem(storageKey) || "[]").filter(Number.isInteger)); } catch(e) { saved = new Set(); }
+  try { saved = new Set(JSON.parse(localStorage.getItem(storageKey) || "[]").filter(x=>typeof x==="string")); } catch(e) { saved = new Set(); }
   function saveFavorites() { try { localStorage.setItem(storageKey, JSON.stringify([...saved])); } catch(e) {} }
-  const counts = Object.fromEntries(PERIODS.map(p => [p, EVENTS.filter(e=>e.era === p).length]));
+  function selectedEvents(){return EVENTS.filter(e=>STATE.regions.has(e.relation));}
+  function renderRelations(){const all=STATE.regions.size===REGIONS.length;$('#allRelations').classList.toggle('active',all);$('#allRelations').setAttribute('aria-pressed',String(all));$('#relationChips').innerHTML=REGIONS.map(r=>{const n=EVENTS.filter(e=>e.relation===r.key).length;const active=STATE.regions.has(r.key);return `<button type="button" class="relation-chip ${active?'active':''}" data-region="${r.key}" aria-pressed="${active}" title="${esc(r.detail)}"><span class="region-dot region-${r.key}"></span><strong>${r.name}</strong><small>${n}項目</small></button>`;}).join('');}
+  const counts=()=>Object.fromEntries(PERIODS.map(p => [p,selectedEvents().filter(e=>e.era===p).length]));
   function renderMenus() {
-    $("#eraMenu").innerHTML = ["すべて",...PERIODS].map(e => `<button type="button" class="era-btn ${STATE.era===e?'active':''}" data-era="${e}" aria-pressed="${STATE.era===e}"><span>${e === "すべて" ? "すべての時代" : e + "時代"}</span><span class="era-count">${e==="すべて" ? EVENTS.length : counts[e]}</span></button>`).join("");
+    renderRelations();
+    const cts=counts();
+    $("#eraMenu").innerHTML = ["すべて",...PERIODS].map(e => `<button type="button" class="era-btn ${STATE.era===e?'active':''}" data-era="${e}" aria-pressed="${STATE.era===e}"><span>${e === "すべて" ? "すべての時代" : e + "時代"}</span><span class="era-count">${e==="すべて" ? selectedEvents().length : cts[e]}</span></button>`).join("");
     $("#themeChips").innerHTML = THEMES.map(t => `<button type="button" data-theme="${t}" class="chip ${STATE.theme===t?'active':''}" aria-pressed="${STATE.theme===t}">${t}</button>`).join("");
     [["#importantBtn",STATE.important],["#savedBtn",STATE.savedOnly],["#recallBtn",STATE.recall]].forEach(([id,v])=>{const b=$(id);b.classList.toggle("active",v);b.setAttribute("aria-pressed",String(v));});
     $("#sortSelect").value = STATE.desc ? "desc" : "asc";
     $("#expandBtn").textContent = STATE.allExpanded ? "すべて閉じる" : "すべて開く";
-    $("#totalCount").textContent = String(EVENTS.length);
+    $("#totalCount").textContent = String(selectedEvents().length);
   }
   function matches(e) {
+    if(!STATE.regions.has(e.relation)) return false;
     if(STATE.era !== "すべて" && e.era !== STATE.era) return false;
     if(STATE.theme !== "すべて" && e.theme !== STATE.theme) return false;
     if(STATE.important && e.level < 3) return false;
@@ -251,7 +259,7 @@
     const levelLabel = e.level===3 ? "最重要" : e.level===2 ? "重要" : "関連";
     return `<article class="event ${e.level===3?'major':''} ${hiddenAnswer?'mem':''}" id="event-${e.id}" aria-label="${esc(e.year)} ${hiddenAnswer?'暗記問題':esc(e.title)}">
       <div class="event-year">${esc(e.year)}</div>
-      <div class="event-card"><div class="event-top"><div class="event-meta"><span class="tag ${e.theme}">${esc(e.theme)}</span><span class="importance ${e.level===1?'low':''}" title="${levelLabel}" aria-label="重要度：${levelLabel}">${e.level===3?'★★★':e.level===2?'★★':'★'}</span><span class="dyn">${esc(e.dynasty)}</span></div>
+      <div class="event-card"><div class="event-top"><div class="event-meta"><span class="region-label region-label-${e.relation}">${esc(REGIONS.find(r=>r.key===e.relation)?.name||"")}</span><span class="tag ${e.theme}">${esc(e.theme)}</span><span class="importance ${e.level===1?'low':''}" title="${levelLabel}" aria-label="重要度：${levelLabel}">${e.level===3?'★★★':e.level===2?'★★':'★'}</span><span class="dyn">${esc(e.dynasty)}</span></div>
       <div class="event-title-row"><h3 class="event-title">${hiddenAnswer?'？？？　出来事を思い出そう':esc(e.title)}</h3><button class="favorite ${saved.has(e.id)?'saved':''}" data-save="${e.id}" aria-label="${saved.has(e.id)?'保存を解除':'この出来事を保存'}" aria-pressed="${saved.has(e.id)}" title="${saved.has(e.id)?'保存を解除':'あとで復習する'}">${saved.has(e.id)?'★':'☆'}</button></div>
       <p class="event-summary">${esc(e.summary)}</p><div class="event-actions">${STATE.recall ? `<button class="reveal" data-reveal="${e.id}">${reveal?'答えを隠す':'答えを表示する'} →</button>` : `<button class="details-toggle" data-expand="${e.id}" aria-expanded="${open}" aria-controls="detail-${e.id}">入試ポイントを見る</button>`}</div></div>
       <div class="detail" id="detail-${e.id}" ${(!open || hiddenAnswer)?'hidden':''}><div class="detail-label">EXAM NOTE / 入試で押さえるポイント</div><p>${esc(e.point)}</p><div class="terms">${e.terms.split(',').map(t => `<span class="term"># ${esc(t)}</span>`).join('')}</div></div></div></article>`;
@@ -261,7 +269,7 @@
     const list = EVENTS.filter(matches).sort((a,b)=>STATE.desc ? b.order-a.order : a.order-b.order);
     const active = [STATE.era!=="すべて"?STATE.era+"時代":null,STATE.theme!=="すべて"?STATE.theme:null,STATE.important?"最重要":null,STATE.savedOnly?"保存済み":null,STATE.q?'「'+STATE.q+'」':null].filter(Boolean);
     $("#resultLabel").textContent = `${list.length}件の出来事`;
-    $("#filterStatus").textContent = active.length ? active.join(' · ') + ' で絞り込み中' : '全時代を表示しています';
+    $("#filterStatus").textContent = active.length ? active.join(' · ') + ' で絞り込み中' : `${[...STATE.regions].length}地域を表示しています`;
     if(!list.length){root.innerHTML='<div class="empty"><strong>該当する出来事がありません</strong>検索語やフィルターを変更してください。</div>';return;}
     const groupOrder=STATE.desc ? [...PERIODS].reverse():PERIODS;
     let html="";
@@ -271,6 +279,8 @@
     root.innerHTML=html;
   }
   function clearFilters(){ STATE.era="すべて";STATE.theme="すべて";STATE.q="";STATE.important=false;STATE.savedOnly=false;STATE.recall=false;STATE.desc=false;STATE.allExpanded=false;$("#search").value="";render(); }
+  $("#relationChips").addEventListener("click",e=>{const b=e.target.closest("[data-region]");if(!b)return;const k=b.dataset.region;if(STATE.regions.has(k)){if(STATE.regions.size>1)STATE.regions.delete(k);}else STATE.regions.add(k);STATE.allExpanded=false;expanded.clear();revealed.clear();render();});
+  $("#allRelations").addEventListener("click",()=>{STATE.regions=STATE.regions.size===REGIONS.length?new Set(["cn"]):new Set(REGIONS.map(r=>r.key));STATE.allExpanded=false;expanded.clear();revealed.clear();render();});
   $("#eraMenu").addEventListener("click",e=>{const b=e.target.closest("[data-era]"); if(!b)return; STATE.era=b.dataset.era;STATE.allExpanded=false;render();$("#explore").scrollIntoView({behavior:"smooth"});});
   $("#themeChips").addEventListener("click",e=>{const b=e.target.closest("[data-theme]"); if(!b)return;STATE.theme=b.dataset.theme;STATE.allExpanded=false;render();});
   $("#search").addEventListener("input",e=>{STATE.q=e.target.value;STATE.allExpanded=false;render();});
@@ -282,24 +292,16 @@
   $("#expandBtn").addEventListener("click",()=>{STATE.allExpanded=!STATE.allExpanded;expanded.clear();if(STATE.recall){STATE.recall=false;revealed.clear();}render();});
   $("#printBtn").addEventListener("click",()=>window.print());
   root.addEventListener("click", e=>{
-    const save=e.target.closest("[data-save]"); if(save){const id=Number(save.dataset.save);saved.has(id)?saved.delete(id):saved.add(id);saveFavorites();render();return;}
-    const toggle=e.target.closest("[data-expand]");if(toggle){const id=Number(toggle.dataset.expand);if(STATE.allExpanded){STATE.allExpanded=false;expanded=new Set(EVENTS.filter(matches).map(e=>e.id));}expanded.has(id)?expanded.delete(id):expanded.add(id);render();return;}
-    const reveal=e.target.closest("[data-reveal]");if(reveal){const id=Number(reveal.dataset.reveal);revealed.has(id)?revealed.delete(id):revealed.add(id);if(revealed.has(id))expanded.add(id);else expanded.delete(id);render();return;}
+    const save=e.target.closest("[data-save]"); if(save){const id=save.dataset.save;saved.has(id)?saved.delete(id):saved.add(id);saveFavorites();render();return;}
+    const toggle=e.target.closest("[data-expand]");if(toggle){const id=toggle.dataset.expand;if(STATE.allExpanded){STATE.allExpanded=false;expanded=new Set(EVENTS.filter(matches).map(e=>e.id));}expanded.has(id)?expanded.delete(id):expanded.add(id);render();return;}
+    const reveal=e.target.closest("[data-reveal]");if(reveal){const id=reveal.dataset.reveal;revealed.has(id)?revealed.delete(id):revealed.add(id);if(revealed.has(id))expanded.add(id);else expanded.delete(id);render();return;}
   });
   $("#startBtn").addEventListener("click",()=>$("#explore").scrollIntoView({behavior:"smooth"}));
-  document.querySelector(".keynav").addEventListener("click",e=>{
-    const btn=e.target.closest("[data-jump]");if(!btn)return;
-    const target=EVENTS.find(ev=>String(ev.order)===btn.dataset.jump || String(Math.trunc(ev.order))===btn.dataset.jump);
-    if(!target)return;
-    clearFilters();
-    const el=document.getElementById(`event-${target.id}`);
-    if(el){el.scrollIntoView({behavior:"smooth",block:"center"}); el.querySelector(".event-card").animate([{boxShadow:"0 0 0 0 #e4c18400"},{boxShadow:"0 0 0 5px #e4c184aa"},{boxShadow:"0 0 0 0 #e4c18400"}],{duration:1400});}
-  });
   $("#csvBtn").addEventListener("click",()=>{
-    const header=["時代","年代","中国の王朝・政権","分野","重要度","出来事","概要","入試ポイント","関連語"];
-    const rows=EVENTS.map(e=>[e.era,e.year,e.dynasty,e.theme,'★'.repeat(e.level),e.title,e.summary,e.point,e.terms]);
+    const header=["関係史","時代","年代","相手国・政権","分野","重要度","出来事","概要","入試ポイント","関連語"];
+    const rows=EVENTS.filter(matches).sort((a,b)=>a.order-b.order).map(e=>[REGIONS.find(r=>r.key===e.relation)?.name||e.relation,e.era,e.year,e.dynasty,e.theme,'★'.repeat(e.level),e.title,e.summary,e.point,e.terms]);
     const csv='\ufeff'+[header,...rows].map(row=>row.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\r\n');
-    const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement("a");a.href=url;a.download="日中関係史_縄文から平成_年表.csv";document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+    const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement("a");a.href=url;a.download="日本の対外関係史_選択中の年表.csv";document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
   });
   const back=$("#backToTop");
   window.addEventListener("scroll",()=>back.classList.toggle("visible",window.scrollY>650),{passive:true});
